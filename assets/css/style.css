@@ -328,6 +328,42 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+/*--------------------------------------------------------------
+# Languaje bars
+--------------------------------------------------------------*/
+
+.about .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.about .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #f7f7f7;
+}
+.about .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.about .progress-bar-wrap {
+  background: #1d1d25;
+  height: 10px;
+}
+.about .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #FFC107;
+}
+
+/*-------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Akills
